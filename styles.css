@@ -1,0 +1,103 @@
+#jsonliste {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+#filter {
+	padding-bottom:20px;
+	display: flex;
+  justify-content: center;
+}
+
+#head {
+	display: flex;
+  justify-content: center;
+  padding-bottom:10px;
+}
+#finalr {
+  margin: 0 auto;
+  padding-bottom:20px;  
+}
+
+#finalc {
+  margin: 0 auto;
+  padding-bottom:20px;  
+}
+
+.head {
+		float:left;
+		width:85px;
+		font-family: 'Exo 2',sans-serif;
+		color: #ffffff;
+		font-weight: bolder;
+		padding-left:5px;
+}
+
+.player {
+		width:220px !important;
+}
+
+.boxfilter {
+	   margin-bottom: 10px !important; 
+}
+
+a.button:link, a.button:hover, a.button:visited {
+	  text-decoration: none;
+		margin-right:10px;
+		font-family: 'Exo 2',sans-serif;
+		color: #fff;
+		font-size: 2.9rem;
+		padding-right:80px;
+		padding-left:32px;		
+}
+
+a.button:active,a.button:before, a.butCurr {
+		text-decoration: underline;
+		margin-right:10px;
+		font-family: 'Exo 2',sans-serif;
+		color: #fff;
+		font-size: 2.9rem;
+		padding-right:80px;
+		padding-left:32px;	
+}
+
+.col1 {
+    font-size: 1.4rem;
+    background-color: #212121;
+    color: #fff;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    //font-family: 'Exo 2',sans-serif;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 1.9rem;
+}
+
+.col2 {
+    font-size: 1.4rem;
+    background-color: #515151;
+    color: #fff;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+    //font-family: 'Exo 2',sans-serif;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 1.9rem;
+}
+
+a.linkclass:hover, a.linkclass:visited, a.linkclass:link 
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    //font-family: 'Exo 2',sans-serif;
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 1.9rem;
+}
+a.linkclass:active {
+	//text-decoration: none;
+  color: #FFFFFF;
+  //font-family: 'Exo 2',sans-serif;
+  font-family: 'Noto Sans',sans-serif;
+  font-size: 1.9rem;
+	
+}

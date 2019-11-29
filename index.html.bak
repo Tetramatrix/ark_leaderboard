@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://theultimatesurvivor.eu/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>ScoreboardUi</title>
+		<!--<base href="/">--><base href=".">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="http://theultimatesurvivor.eu/favicon.ico">
+
+		<link href="./ScoreboardUi_files/css" rel="stylesheet">
+		<link href="./ScoreboardUi_files/css(1)" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		
+	<link rel="stylesheet" href="./ScoreboardUi_files/styles.d1b006b6c99aa6d1d041.css"><style>@charset "UTF-8";.root-container[_ngcontent-c0]{font-size:1.4rem;background-color:#212121;color:#fff}</style><style>@charset "UTF-8";.main-header-wrapper[_ngcontent-c1]{display:flex;align-self:center;justify-content:flex-end;margin-top:5rem}.main-menu-link[_ngcontent-c1]{font-size:2rem;font-weight:400;color:#646464;transition:all .2s}.main-menu-link[_ngcontent-c1]:not(:first-of-type){margin-left:10rem}.main-menu-link[_ngcontent-c1]:hover{color:#fff;background:radial-gradient(ellipse at center,rgba(255,255,255,.1) 0,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%)}.main-menu-link.active[_ngcontent-c1]{color:#35a5f2;background:radial-gradient(ellipse at center,rgba(53,165,242,.1) 0,rgba(53,165,242,0) 70%,rgba(53,165,242,0) 100%)}.header-shadow[_ngcontent-c1]{z-index:0;pointer-events:none;position:absolute;top:0;left:0;width:100%;height:100vh;background:radial-gradient(120vw 100vh at 50% 120%,transparent,transparent,rgba(0,0,0,.5))}</style><style>@charset "UTF-8";.module-landing-page[_ngcontent-c2]{margin:5rem 0}.main-title[_ngcontent-c2]{color:#fff}#trike-logo[_ngcontent-c2]{margin-left:20px;width:150px;height:150px;float:right}</style><style>@charset "UTF-8";.table-container[_ngcontent-c3]{padding:1rem;box-shadow:0 0 20px rgba(0,0,0,.4);box-sizing:border-box;background-color:#2c2c2c;border:1px solid rgba(66,66,66,.5);margin-bottom:8rem;position:relative}.table-container[_ngcontent-c3]:after, .table-container[_ngcontent-c3]:before{content:"";position:absolute;left:0;right:0;height:1px;background:linear-gradient(to right,rgba(53,165,242,0) 0,#35a5f2 60%,rgba(53,165,242,0) 100%)}.table-container[_ngcontent-c3]:before{top:-1px}.table-container[_ngcontent-c3]:after{bottom:-1px}.table-wrapper[_ngcontent-c3]{width:100%;border-collapse:collapse;text-align:left}.table-header[_ngcontent-c3]{text-transform:uppercase;font-weight:700}.table-header[_ngcontent-c3]   .table-header-cell[_ngcontent-c3]{padding:1.2rem 1rem}.table-body[_ngcontent-c3]   .table-row[_ngcontent-c3]:nth-child(odd){background-color:rgba(33,33,33,.8)}.table-body[_ngcontent-c3]   .table-row[_ngcontent-c3]:nth-child(even){background-color:rgba(33,33,33,.6)}.table-body[_ngcontent-c3]   .table-data-cell[_ngcontent-c3]{padding:1.2rem 1rem}</style><style>@charset "UTF-8";.copyright-footer[_ngcontent-c4]{padding:1.8rem;border-top:1px solid #424242;font-size:1.3rem;color:#424242}</style>
+		<script type="module" src="jsonliste.js"></script>
+		</head>
+
+	<body>
+		
+	  <app-root _nghost-c0="" ng-version="7.2.3"><div _ngcontent-c0="" class="root-container"><div _ngcontent-c0="" class="content container-fluid"><app-header _ngcontent-c0="" _nghost-c1=""><header _ngcontent-c1="" class="main-header row"><div _ngcontent-c1="" class="header-shadow"></div></header></app-header><app-landing-page _ngcontent-c0="" _nghost-c2=""><section _ngcontent-c2="" class="section module-landing-page row"><div _ngcontent-c2="" class="col-sm-8 offset-sm-2"><h1 _ngcontent-c2="" class="main-title title-shadow-decoration">The ultimate survivor</h1><img _ngcontent-c2="" id="trike-logo" src="./ScoreboardUi_files/logo.png"><p _ngcontent-c2=""> A remastered modification of the legendary Battle Royale ARK: Survival of the Fittest, balanced for both intense competition and casual gameplay. Do you have what it takes to become the Ultimate Survivor? <br _ngcontent-c2=""><br _ngcontent-c2=""> Climb our ARK: Deathmatch leaderboard in the following weeks to put yourself as a survivor in the spotlights and you might get a direct invite into the first ever ARK: SE SoTF tournament! </p></div></section></app-landing-page>
+	  
+	  <div id="jsonliste">
+		 		<div id="filter">
+		 					 			
+		 			<div _ngcontent-c3="" class="table-container boxfilter">		 				
+		 						<a id="evo" href="javascript:void(0);" class="butCurr" onclick="document.getElementById('evo').className='butCurr';document.getElementById('evo1life').className='button';document.getElementById('devo').className='button';window.l.observers.filter1();">Evolution</a>
+		 						<a id="evo1life" href="javascript:void(0);" class="button" onclick="document.getElementById('evo').className='button';document.getElementById('evo1life').className='butCurr';document.getElementById('devo').className='button';window.l.observers.filter2();" value="Evo">Evolution 1 life</a>
+		 						<a id="devo" href="javascript:void(0);" class="button" onclick="document.getElementById('evo').className='button';document.getElementById('evo1life').className='button';document.getElementById('devo').className='butCurr';window.l.observers.filter3();" value="Evo">Devolution</a>
+		 			</div>
+		  	</div>
+		  	
+		  	<div id="head"><h2>Ranked</h2></div> 
+		  	<div id="head">		  	
+		  		<div class="head player">Player</div><div class="head">Gold</div><div class="head">Silver</div><div class="head">Bronze</div><div class="head">Games</div>
+		  		<div class="head">Kills</div><div class="head">Deaths</div><div class="head">K/D</div>
+		  	</div>
+		  	<div id="finalr"></div>
+		  	
+		  	<div id="head"><h2>Casual</h2></div> 
+		  	<div id="head"> 
+		  	<div class="head player">Player</div><div class="head">Gold</div><div class="head">Silver</div><div class="head">Bronze</div><div class="head">Games</div>
+		  		<div class="head">Kills</div><div class="head">Deaths</div><div class="head">K/D</div>
+		  	</div> 
+		  	
+		  	<div id="finalc"></div>
+	  	</div>
+	 </div>
+	 
+	 
+	  		  
+	  		  
+	  		 
+	  		  
+	  	
+	  	<app-footer _ngcontent-c0="" _nghost-c4=""><footer _ngcontent-c4="" class="main-footer"><div _ngcontent-c4="" class="copyright-footer row"><div _ngcontent-c4="" class="col-sm-8 offset-sm-2"><span _ngcontent-c4="">©2019 The Ultimate Survivor. All Rights Reserved.</span></div></div></footer></app-footer></div></div></app-root>
+
+
+
+</body></html>
